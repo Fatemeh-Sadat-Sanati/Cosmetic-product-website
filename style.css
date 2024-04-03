@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    justify-content: center;
+
+}
+body {
+    direction: rtl;
+}
+/*-----------------------------------------------------------------------header--------------------------------------------------------------- */
+.nav{
+  background-color: #f9f9f9;
+  height: 50px;
+}
+.nav-login {
+  display: flex;
+}
+.register {
+  margin-right: -25px;
+}
+.nav-info {
+  display: flex;
+}
+.nav-link {
+  color: #000;
+}
+.nav-link:hover{
+  color: #FF47CB;
+}
+.bi-telephone-fill{
+  font-size: 25px;
+  color: gray;
+
+}
+.bi-person-fill {
+  font-size: 30px;
+  color: gray;
+}
+.bi-cart-plus-fill {
+  font-size: 30px;
+  color: grey;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: all 0.4s;
+}
+.dropdown{
+  color: #000;
+}
+.dropdown-menu a {
+  color: #000;
+}
+.dropdown-toggle:hover {
+  color: #FF47CB;
+}
+.dropdown-item:hover {
+  color: #FF47CB;
+
+}
+a {
+    text-decoration: none;
+}
+/* ----------------------------------------------------------------------main------------------------------------------------------------------ */
+.collection .row {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 100px 20px 100px
+  }
+
+  .collection-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 15px solid gainsboro;
+    margin: 10px 0 10px 0;
+  }
+  .collection-text h5 > a{
+    margin-bottom: 15px;
+    color: #000;
+    transition: all 0.5s;
+  }
+  .collection-text h5 > a:hover{
+    color: #FF47CB;
+  }
+  .line {
+    border-bottom: 3px solid #ffcadf;
+    text-align: center;
+  }
+  .heading2 {
+    text-wrap: nowrap;
+    padding-bottom: 5px;
+    border-bottom: 3px solid #FF47CB;
+    display: inline;
+    border-radius: 6%;
+  }
+  .product .card {
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+  }
+  .card-body h4 {
+    font-size: 18px;
+  }
+  .card-body {
+    transition: all 0.7s;
+  }
+  .card-body:hover {
+    background-color: #f9f9f9;
+    transform: translateY(-2em);
+  }
+  .btnc {
+    height: 40px;
+    width: 60%;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    color: #fff ;
+    background-color: rgb(255, 136, 119);
+    border-radius: 50px;
+    margin: 0 auto;
+    display: block;
+    transition: all 0.4s;
+  }
+  .btnc:hover {
+    background-color: #000;
+  }
+
+  .comment {
+    background-color: #f9f9f9;
+  }
+  .comment-body{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 30px 0 30px 0;
+  }
+  .comment-body h4 {
+    font-weight: 700;
+    margin-right: 15px;
+  }
+  .comment-body img {
+    border-radius: 50%;
+  }
+  .user_comment {
+    background-color: #fff;
+    padding: 5%;
+    margin-bottom: 40px;
+  }
+  .user_comment > p{
+    text-align: right;
+  font-family: ;
+  }
+  
+/* -------------------------------------------------------------------footer------------------------------------------------------------- */
+  h5 {
+    border-bottom: 3px solid red;
+    display: inline;
+  }
+  .footer_content{
+    padding-top: 8%;
+  }
+
+.footer_content > a{
+  display: block;
+  color: white;
+
+}
+.footer_content> a:hover{
+  color: red !important;
+}
+@media only screen and (max-width: 500px) {
+  .baran-logo {
+    width: 100%;
+  }
+}
